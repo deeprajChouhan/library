@@ -1,0 +1,59 @@
+@font-face {
+  /* font name*/
+  font-family: font1;
+  /* font1 is a object of font face*/
+  src:url('../fonts/aspergit/Aspergit Bold.otf');
+}
+@font-face {
+  font-family: font2;
+  src:url('../fonts/robo/RobotoMono-Bold.ttf');
+}
+@font-face {
+font-family:font3;
+src:url('fonts/Quicksand/Quicksand-Light.otf');
+}
+body{
+  background-image:url('../images/book1.jpg');
+  background-size: cover;
+}
+* {
+  /*color:#800000;*/
+}
+*{font-family:font3;}
+h1{
+  font-size: 55px;
+  font-family:font1;
+}
+h2{
+  font-family: font1;
+}
+.links{
+  padding-top:0px;
+}
+.links a{
+  display: inline;
+}
+.card{
+  padding:40px;
+  border-radius: 50%;
+}
+a{
+  font-size: 0px;
+  text-decoration: none;
+  transition: all linear 0.5s;
+}
+a:link{
+  color:white;
+}
+ a:visited{color:white;}
+a:hover{
+  opacity: 0.6;
+  font-size:25px;
+
+}
+.links table{
+  margin-left:40px;
+}
+.links table tr td{
+  padding:15px;
+}

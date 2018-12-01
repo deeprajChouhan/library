@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="css/main2.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+.butn{
+	margin-top:250px;
+	margin-left:60px;
+	height:40px;
+	width:150px;
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	border:0.5px solid;
+
+}
+</style>
+  </head>
+  <body>
+    <nav style="padding-left:950px;">
+      <ul class="nav nav-pills">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="issue.html">Issue</a></li>
+        <li><a href="reissue.html">Re-Issue</a></li>
+        <li><a href="return.html">Return</a></li>
+      </ul>
+    </nav>
+    <div class="col-md-12">
+      <div class="col-md-4">
+        <table class="table table-condensed tdModify">
+          <tr><td><a href="cs.html">Computer Science</a></td></tr>
+          <tr><td><a href="it.html">Information Technology</a></td></tr>
+          <tr><td><a href="#">Electrical</a></td></tr>
+          <tr><td><a href="ele.html">Electronics</a></td></tr>
+          <tr><td><a href="mech.html">Mechanical</a></td></tr>
+          <tr><td><a href="math.html">Mathematics</a></td></tr>
+          <tr><td><a href="litra.html">Literature</a></td></tr>
+          <tr><td><a href="#">Apptitude</a></td></tr>
+        </table>
+      </div>
+    <div id="myCarousel" class="col-md-8 carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/lib6.jpg">
+    </div>
+
+    <div class="item">
+      <img src="images/lib4.jpg">
+    </div>
+
+    <div class="item">
+      <img src="images/lib5.jpg">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<div class="col-md-12">
+	<h1>Computer Science</h1>
+</div><br>
+<div class="col-md-12" style="border:1px solid; height: 0px; width:100%;" ></div><br>
+<!--For Cse-->
+<div class="col-md-12">
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px; padding-bottom:78px; margin-right:15px;"><a href="http://is.ptithcm.edu.vn/~tdhuy/Programming/Introduction.to.Algorithms.pdf"><img src="images/books/cs/book1.jpg" height="250px" width="250px"></a><br><h1>Introduction to Algorithms</h1></div>
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px; margin-right:15px;"><img src="images/books/cs/book2.jpg" height="250px" width="250px"><br><h1>Compilers: Principles, Techniques, and Tools</h1></div>
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px; padding-bottom:42px; margin-right:15px;"><img src="images/books/cs/book3.jpg"  height="250px" width="250px"><br><h1>The C Programming Language</h1></div>
+<div class="col-md-3"></div><a href="cs.html"><input type="button" class="butn" value="See More->"/></a></div>
+<div class="col-md-12">
+	<h1>Information Technology</h1>
+</div><br>
+<div class="col-md-12" style="border:1px solid; height: 0px; width:100%;" ></div><br>
+<!--For IT-->
+<div class="col-md-12">
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px; padding-bottom:78px; margin-right:15px;"><img src="images/books/it/book1.jpg" height="250px" width="250px"><br><h1>Information Technology Project Management</h1></div>
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px;  padding-bottom:158px; margin-right:15px; "><img src="images/books/it/book2.jpg" height="250px" width="250px"><br><h1>Information Technology Law</h1></div>
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px; padding-bottom:80px; margin-right:15px;"><img src="images/books/it/book3.jpg"  height="250px" width="250px"><br><h1>Encyclopedia of Information Communication Technology</h1></div>
+<div class="col-md-3"></div><a href="it.html"><input type="button" class="butn" value="See More->"/></a></div>
+
+<div class="col-md-12">
+	<h1>Electrical</h1>
+</div><br>
+<div class="col-md-12" style="border:1px solid; height: 0px; width:100%;" ></div><br>
+<!--For Electrical-->
+<div class="col-md-12">
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px; padding-bottom:78px; margin-right:15px;"><img src="images/books/el/book1.jpg" height="250px" width="250px"><br><h1>Information Technology Project Management</h1></div>
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px;  padding-bottom:158px; margin-right:15px; "><img src="images/books/el/book2.jpg" height="250px" width="250px"><br><h1>Information Technology Law</h1></div>
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px; padding-bottom:80px; margin-right:15px;"><img src="images/books/el/book3.jpg"  height="250px" width="250px"><br><h1>Encyclopedia of Information Communication Technology</h1></div>
+<div class="col-md-3"></div><a href="it.html"><input type="button" class="butn" value="See More->"/></a></div>
+  </body>
+</html>

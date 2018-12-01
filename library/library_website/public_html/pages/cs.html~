@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="css/main3.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <nav style="padding-left:950px;">
+      <ul class="nav nav-pills">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="cs.html">Issue</a></li>
+        <li><a href="reissue.html">Re-Issue</a></li>
+        <li><a href="return.html">Return</a></li>
+      </ul>
+    </nav>
+    <div class="col-md-12">
+      <div class="col-md-4">
+        <table class="table table-condensed table-hovered tdModify">
+          <tr style="  background-color: black;color:#005FCE;font-size: 30px;"><td><a href="cs.html">Computer Science</a></td></tr>
+          <tr><td class="modify"><a href="it.html">Information Technology</a></td></tr>
+          <tr><td class="modify"><a href="#">Electrical</a></td></tr>
+          <tr><td class="modify"><a href="#">Electronics</a></td></tr>
+          <tr><td class="modify"><a href="#">Mechanical</a></td></tr>
+          <tr><td class="modify"><a href="#">Mathematics</a></td></tr>
+          <tr><td class="modify"><a href="#">Literature</a></td></tr>
+          <tr><td class="modify"><a href="#">Apptitude</a></td></tr>
+        </table>
+      </div>
+      <div class="col-md-8">
+        <table class="table table-bordered table-hovered">
+          <tr>
+            <td><img src="images/books/cs/book1.jpg" height="250px" width="250px"><br><h2>Introduction to Algorithms</h2></td>
+            <td><img src="images/books/cs/book2.jpg" height="250px" width="250px"><br>
+            <h3>Compilers: Principles, Techniques, and  Tools</h3></td>
+            <td><img src="images/books/cs/book3.jpg" height="250px" width="250px"><br>
+            <h3>The C Programming Language</h3></td>
+          </tr>
+          <tr>
+            <td><img src="images/books/cs/book4.jpg" height="250px" width="250px"><br>
+            <h3>Code: The Hidden Language of Computer Hardware and Software</h3></td>
+            <td><img src="images/books/cs/book5.jpg" height="250px" width="250px"><h3>Design Patterns: Elements of Reusable Object-Oriented Software</h3></td>
+            <td><img src="images/books/cs/book6.jpg" height="250px" width="250px"><h3>Modern Operating Systems</h3></td>
+          </tr>
+        </table>
+      </div>
+</div>
+  </body>
+</html>

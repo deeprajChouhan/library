@@ -1,0 +1,44 @@
+@font-face {
+  /* font name*/
+  font-family: font1;
+  /* font1 is a object of font face*/
+  src:url('../fonts/aspergit/Aspergit Bold.otf');
+}
+@font-face {
+  font-family: font2;
+  src:url('../fonts/robo/RobotoMono-Bold.ttf');
+}
+*{
+  text-decoration: none;
+  color:black;
+}
+.tdModify{
+  font-size: 25px;
+  font-family: font2;
+  -moz-transition:all linear 1s;
+}
+tr{
+  align-items: center;
+  -moz-transition: all linear 1s;
+}
+ td:hover{
+  background-color: black;
+  color:white;
+  cursor:pointer;
+  font-size: 30px;
+  text-decoration: none;
+  -moz-transition: all linear 1s;
+}
+a:link:visited{
+  text-decoration: none;
+  color:#005FCE;
+  -moz-transition: all linear 0.5s;
+}
+a:link:hover{
+  text-decoration: none;
+  color:white;
+  -moz-transition:all linear 0.5s;
+}
+.cards{
+  border:0.5px solid;
+}

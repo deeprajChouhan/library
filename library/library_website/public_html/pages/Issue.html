@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="../css/main2.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="../main/css/full-slider.css">
+ <link rel="stylesheet" href="../main/vendor/bootstrap/">
+ <script src="../js/angular.js"></script>
+<style>
+.butn{
+	margin-top:250px;
+	margin-left:60px;
+	height:40px;
+	width:150px;
+	background-color:Transparent;
+	background-repeat:no-repeat;
+	border:0.5px solid;
+
+}
+</style>
+  </head>
+  <body ng-app="myApp">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">E-LIBRARY</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Issue.html">Issue</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../reissue.html">Re-issue</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../return.html">Return</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="col-md-12">
+      <div class="col-md-4">
+        <table class="table table-condensed tdModify">
+          <tr><td><a href="cs.html">Computer Science</a></td></tr>
+          <tr><td><a href="it.html">Information Technology</a></td></tr>
+          <tr><td><a href="ele.html">Electrical</a></td></tr>
+          <tr><td><a href="elect.html">Electronics</a></td></tr>
+          <tr><td><a href="mech.html">Mechanical</a></td></tr>
+          <tr><td><a href="math.html">Mathematics</a></td></tr>
+          <tr><td><a href="litera.html">Literature</a></td></tr>
+          <tr><td><a href="appit.html">Apptitude</a></td></tr>
+        </table>
+      </div>
+    <div id="myCarousel" class="col-md-8 carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/lib6.jpg">
+    </div>
+
+    <div class="item">
+      <img src="images/lib4.jpg">
+    </div>
+
+    <div class="item">
+      <img src="images/lib5.jpg">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<div class="col-md-12">
+	<h1>Computer Science</h1>
+</div><br>
+<div class="col-md-12" style="border:1px solid; height: 0px; width:100%;" ></div><br>
+<!--For Cse-->
+<div class="col-md-12" ng-controller="cseCtrl">
+  <table class="tdModify">
+    <tr>
+      <td ng-repeat="x in data"><div style="padding:20px;">
+        <h1>{{x.name}}</h1>
+        <h2>{{x.sem}}</h2>
+        <h3>{{x.stream}}</h3>
+      </div></td>
+    </tr>
+  </table class="tdModify">
+<div class="col-md-3"></div><a href="cs.html"><input type="button" class="butn" value="See More->"/></a>
+</div>
+<div class="col-md-12">
+	<h1>Information Technology</h1>
+</div><br>
+<div class="col-md-12" style="border:1px solid; height: 0px; width:100%;" ></div><br>
+<!--For IT-->
+<div class="col-md-12" ng-controller="itCtrl">
+  <table>
+    <tr>
+      <td ng-repeat="x in data"><div style="padding:20px;" class="card">
+        <h1>{{x.name}}</h1>
+        <h2>{{x.sem}}</h2>
+        <h3>{{x.stream}}</h3>
+      </div></td>
+    </tr>
+  </table>
+</div>
+<div class="col-md-12">
+	<h1>Electrical</h1>
+</div><br>
+<div class="col-md-12" style="border:1px solid; height: 0px; width:100%;" ></div><br>
+<!--For Electrical-->
+<div class="col-md-12">
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px; padding-bottom:70px; margin-right:15px;"><img src="images/books/ele/book1.jpg" height="250px" width="250px"><br><h1>Principle of Electrical Engineering</h1></div>
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px;  padding-bottom:110px; margin-right:15px; "><img src="images/books/ele/book2.jpg" height="250px" width="250px"><br><h1>Power System Engineering</h1></div>
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px; padding-bottom:150px; margin-right:15px;"><img src="images/books/ele/book3.jpg"  height="250px" width="250px"><br><h1>Digital Design</h1></div>
+<div class="col-md-3"></div><a href="ele.html"><input type="button" class="butn" value="See More->"/></a></div>
+<div class="col-md-12">
+	<h1>Electronics</h1>
+</div><br>
+<div class="col-md-12" style="border:1px solid; height: 0px; width:100%;" ></div><br>
+<!--For Electronics-->
+<div class="col-md-12">
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px; padding-bottom:70px; margin-right:15px;"><img src="images/books/elect/book1.jpg" height="250px" width="250px"><br><h1>Electronics Circuit and System</h1></div>
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px;  padding-bottom:110px; margin-right:15px; "><img src="images/books/elect/book2.jpg" height="250px" width="250px"><br><h1>Intutive Analog Circuit Device</h1></div>
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px; padding-bottom:70px; margin-right:15px;"><img src="images/books/elect/book3.jpg"  height="250px" width="250px"><br><h1>Fundamental Of Power Electronics</h1></div>
+<div class="col-md-3"></div><a href="elect.html"><input type="button" class="butn" value="See More->"/></a></div>
+<div class="col-md-12">
+	<h1>Mechnical</h1>
+</div><br>
+<div class="col-md-12" style="border:1px solid; height: 0px; width:100%;" ></div><br>
+<!--For Mechnical-->
+<div class="col-md-12">
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px; padding-bottom:50px; margin-right:15px;"><img src="images/books/mech/book1.jpg" height="250px" width="250px"><br><h1>Fundamentals Of Engineering Thermodynamics</h1></div>
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px;  padding-bottom:90px; margin-right:15px; "><img src="images/books/mech/book2.jpg" height="250px" width="250px"><br><h1>Engineering Thermodynamics</h1></div>
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px; padding-bottom:90px; margin-right:15px;"><img src="images/books/mech/book3.jpg"  height="250px" width="250px"><br><h1>Theory of Machines</h1></div>
+<div class="col-md-3"></div><a href="mech.html"><input type="button" class="butn" value="See More->"/></a></div>
+<div class="col-md-12">
+	<h1>Mathematics</h1>
+</div><br>
+<div class="col-md-12" style="border:1px solid; height: 0px; width:100%;" ></div><br>
+<!--For Mathemathics-->
+<div class="col-md-12">
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px; padding-bottom:50px; margin-right:15px;"><img src="images/books/math/book1.jpg" height="250px" width="250px"><br><h1>Engineering Mathematics</h1></div>
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px;  padding-bottom:50px; margin-right:15px; "><img src="images/books/math/book2.jpg" height="250px" width="250px"><br><h1>Engineering Mathematics</h1></div>
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px; padding-bottom:10px; margin-right:15px;"><img src="images/books/math/book3.jpg"  height="250px" width="250px"><br><h1>Modern Engineering Mathematics</h1></div>
+<div class="col-md-3"></div><a href="math.html"><input type="button" class="butn" value="See More->"/></a></div>
+<div class="col-md-12">
+	<h1>Literature</h1>
+</div><br>
+<div class="col-md-12" style="border:1px solid; height: 0px; width:100%;" ></div><br>
+<!--For Literature-->
+<div class="col-md-12">
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px; padding-bottom:120px; margin-right:15px;"><img src="images/books/litera/book1.jpg" height="250px" width="250px"><br><h1>Old English Literature</h1></div>
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px;  padding-bottom:50px; margin-right:15px; "><img src="images/books/litera/book2.jpg" height="320px" width="250px"><br><h1>Baisc English Grammar</h1></div>
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px; padding-bottom:50px; margin-right:15px;"><img src="images/books/litera/book3.jpg"  height="320px" width="250px"><br><h1>Fundamentals Of English Grammar</h1></div>
+<div class="col-md-3"></div><a href="litera.html"><input type="button" class="butn" value="See More->"/></a></div>
+<div class="col-md-12">
+	<h1>Appitude</h1>
+</div><br>
+<div class="col-md-12" style="border:1px solid; height: 0px; width:100%;" ></div><br>
+<!--For Appitude -->
+<div class="col-md-12">
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px; padding-bottom:115px; margin-right:15px;"><img src="images/books/appit/book1.jpg" height="250px" width="250px"><br><h1>Qunatitative Appitude</h1></div>
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px;  padding-bottom:35px; margin-right:15px; "><img src="images/books/appit/book2.jpg" height="250px" width="250px"><br><h1>Qunatitative Appitude for Competative forExaminations</h1></div>
+<div class="col-md-3" style="border:0.5px solid;margin-top:30px; padding-bottom:75px; margin-right:15px;"><img src="images/books/appit/book3.jpg"  height="250px" width="250px"><br><h1>Qunatitative Appitude --S.C.Chand</h1></div>
+<div class="col-md-3"></div><a href="appit.html"><input type="button" class="butn" value="See More->"/></a></div>
+
+  </body>
+</html>
+<script>
+  var app = angular.module("myApp",[]);
+  app.controller("cseCtrl",function($scope,$http){
+    $http.post("fetch_data.php?id=CSE").then(function(response){$scope.data = response.data.records;});
+  });
+  app.controller("itCtrl",function($scope,$http){
+    $http.post("fetch_data.php?id=IT").then(function(response){$scope.data = response.data.records;});
+  });
+</script>

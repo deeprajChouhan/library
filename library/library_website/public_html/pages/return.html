@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Re-Issue</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  @font-face {
+    font-family: font2;
+    src:url('../fonts/robo/RobotoMono-Bold.ttf');
+  }
+  body{
+    background-image: url('images/lib1.jpg');
+    background-size: cover;
+  }
+    .reForm{
+      border: 0.5px solid;
+      border-radius: 15px 20px 15px 20px;
+      width:40%;
+      margin-top:50px;
+      background-color:white;
+      font-family:font2;
+    }
+    td{
+      padding:20px;
+    }
+  </style>
+  </head>
+  <body>
+    <nav style="padding-left:950px; background-color:white;">
+      <ul class="nav nav-pills">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="reissue.html">Re-Issue</a></li>
+        <li  class="active"><a href="return.html">Return</a></li>
+      </ul>
+    </nav>
+    <center >
+      <form class="reForm">
+      <table>
+        <tr>
+          <td><h2>Name: </h2></td>
+          <td><input type="text"></td>
+        </tr>
+        <tr>
+          <td><h2>Enter ID: </h2></td>
+          <td><input type="number" max="0"></td>
+        </tr>
+        <tr>
+          <td><h2>Book Number: </h2></td>
+          <td><input type="number"></td>
+        </tr>
+        <tr>
+          <td><h2>Issue Date: </h2></td>
+          <td><input type="date"></td>
+        </tr>
+      </table>
+        <div style="padding-bottom:20px;"></div>
+        <input type="button" class="btn btn-success" value="Return" style="margin-left:350px;">
+        <div style="padding-bottom:20px;"></div>
+      </form>
+    </center>
+  </body>
+</html>
